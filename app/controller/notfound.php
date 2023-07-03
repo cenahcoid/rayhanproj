@@ -9,6 +9,7 @@
  */
 class NotFound extends SENE_Controller
 {
+    private $none;
     public function __construct()
     {
         parent::__construct();
