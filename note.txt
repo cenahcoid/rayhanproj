@@ -1,0 +1,1 @@
+1. $_SESSION[$GLOBALS['SEMECFG']->saltkey] adalah session untuk menyimpan sesi seme framework
