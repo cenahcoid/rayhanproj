@@ -16,7 +16,7 @@
  * Site Base URL with http:// or https:// prefix and trailing slash
  * @var string
  */
-$site = "http://localhost:8080/seme/ehan/";
+$site = "http://".$_SERVER['HTTP_HOST']."/seme/ehan/";
 /**
  * URL parse method
  *   - REQUEST_URI, suitable for Nginx
